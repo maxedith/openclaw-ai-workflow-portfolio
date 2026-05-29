@@ -1,0 +1,20 @@
+Recommended public upload set:
+
+README.md
+portfolio_summary.md
+.gitignore
+docs/
+sample_outputs/
+GITHUB_REPOSITORY_SETUP.md
+FINAL_PUBLICATION_CHECKLIST.md
+PUBLIC_REPO_FILE_LIST.txt
+
+Optional phase reports:
+
+PHASE2_CLEANUP_REPORT.md
+PHASE3A_DIAGRAMS_REPORT.md
+PHASE3B_FINAL_README_CHECK_REPORT.md
+PHASE4_PUBLISH_PREP_REPORT.md
+
+The phase reports are optional and may be excluded from the public repo to keep it clean.
+

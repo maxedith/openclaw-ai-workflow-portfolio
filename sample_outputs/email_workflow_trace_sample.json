@@ -1,0 +1,17 @@
+{
+  "workflow": "daily_email_brief",
+  "status": "completed",
+  "sample_only": true,
+  "steps": [
+    "scan_inbox",
+    "normalize_messages",
+    "classify_domain_and_intent",
+    "detect_action_required",
+    "rank_priorities",
+    "suppress_noise",
+    "generate_daily_brief"
+  ],
+  "output": "email_daily_brief_sample.md",
+  "privacy_note": "Synthetic sample data only."
+}
+

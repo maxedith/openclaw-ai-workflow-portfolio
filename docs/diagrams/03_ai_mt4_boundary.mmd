@@ -1,0 +1,26 @@
+flowchart TD
+    openclaw["OpenClaw / Workflow Thinking<br/>(main portfolio remains business automation)"]
+    bridge["Finance Bridge / Review Layer<br/>(boundary and review)"]
+    runtime["AI_MT4 Independent Quant Runtime<br/>(secondary case study only)"]
+    guard["Risk Guard"]
+    evidence["Evidence Logs"]
+    mt4["External MT4 Execution Environment"]
+    note["Not the main project<br/>No profitability claim<br/>Runtime boundary, risk control, evidence logging"]
+
+    openclaw -. "separate from ordinary business agents" .-> bridge
+    bridge --> runtime
+    runtime --> guard
+    guard --> evidence
+    guard --> mt4
+    evidence --> note
+
+    classDef main fill:#f6f8fa,stroke:#8c959f,color:#24292f;
+    classDef boundary fill:#fff8c5,stroke:#9a6700,color:#3b2300;
+    classDef risk fill:#ffebe9,stroke:#cf222e,color:#4c0011;
+    classDef evidence fill:#eef7ee,stroke:#2da44e,color:#16351d;
+
+    class openclaw,runtime,mt4 main;
+    class bridge,note boundary;
+    class guard risk;
+    class evidence evidence;
+

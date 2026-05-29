@@ -1,0 +1,28 @@
+flowchart TD
+    inbox["Messy Inbox<br/>Approvals, payments, meetings, suppliers, customers, newsletters"]
+    normalize["Normalize Messages"]
+    classify["Classify Domain and Intent"]
+    action["Detect Action Required"]
+    priority["Rank Priority"]
+    noise["Suppress Noise"]
+    suggest["Suggest Reply / Label"]
+    brief["Generate Daily Brief"]
+    review["Business User Review<br/>Structured priorities for the day"]
+
+    inbox --> normalize
+    normalize --> classify
+    classify --> action
+    action --> priority
+    priority --> noise
+    noise --> suggest
+    suggest --> brief
+    brief --> review
+
+    classDef input fill:#fff8c5,stroke:#9a6700,color:#3b2300;
+    classDef process fill:#e8f5ff,stroke:#1f6feb,color:#0b1f33;
+    classDef output fill:#eef7ee,stroke:#2da44e,stroke-width:2px,color:#16351d;
+
+    class inbox input;
+    class normalize,classify,action,priority,noise,suggest process;
+    class brief,review output;
+

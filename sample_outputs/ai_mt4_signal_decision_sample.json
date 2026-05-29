@@ -1,0 +1,16 @@
+{
+  "workflow": "ai_mt4_signal_decision_review",
+  "status": "sample_only",
+  "case_study_only": true,
+  "steps": [
+    "read_signal",
+    "apply_risk_guard",
+    "check_exposure",
+    "evaluate_runtime_state",
+    "write_decision_log"
+  ],
+  "decision": "no_trade",
+  "reason": "risk_guard_blocked",
+  "disclaimer": "Sample only. Not financial advice. No profitability claim."
+}
+

@@ -1,0 +1,33 @@
+flowchart TD
+    user["Business User"]
+    runtime["OpenClaw Workflow Runtime"]
+    agents["Business Agents"]
+    email["Enterprise Email Agent<br/>(main business case)"]
+    office["Office Agent"]
+    procurement["Future Procurement Agent"]
+    meeting["Future Meeting Agent"]
+    memory["Shared Context / Memory"]
+    outputs["Structured Outputs<br/>Briefs, reports, action lists, JSON traces"]
+    decision["Review / Business Decision"]
+
+    user --> runtime
+    runtime --> agents
+    agents --> email
+    agents --> office
+    agents --> procurement
+    agents --> meeting
+    email --> memory
+    office --> memory
+    procurement --> memory
+    meeting --> memory
+    memory --> outputs
+    outputs --> decision
+
+    classDef main fill:#e8f5ff,stroke:#1f6feb,stroke-width:2px,color:#0b1f33;
+    classDef support fill:#f6f8fa,stroke:#8c959f,color:#24292f;
+    classDef output fill:#eef7ee,stroke:#2da44e,color:#16351d;
+
+    class email main;
+    class user,runtime,agents,office,procurement,meeting,memory support;
+    class outputs,decision output;
+
