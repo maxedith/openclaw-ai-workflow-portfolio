@@ -1,6 +1,6 @@
 # Diagrams
 
-These diagrams are visual aids for the OpenClaw AI Workflow Portfolio. They are designed for recruiter and hiring manager review.
+These diagrams are visual aids for the OpenClaw AI Workflow Portfolio. They are designed to make the portfolio easier to understand visually.
 
 Recommended GitHub viewing pages:
 

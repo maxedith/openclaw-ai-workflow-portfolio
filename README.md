@@ -18,13 +18,13 @@ GitHub can render Mermaid diagrams directly. The `.mmd` files are retained as ed
 
 ## Why This Portfolio Exists
 
-This portfolio is designed for HR, recruiters, and hiring managers. It explains the business value, system thinking, and applied AI workflow skills behind the project without publishing private source code, real email data, trading logs, credentials, or live configuration.
+This portfolio documents how AI workflow engineering can improve real business operations by turning messy information streams into repeatable, reviewable, structured workflows. It focuses on practical business value, operational clarity, privacy boundaries, and risk-aware automation design.
 
 ## Main Project: Enterprise Email Agent
 
 The Enterprise Email Agent is a business workflow assistant for busy professionals, managers, and small business owners. It turns inbox activity into a daily brief with priorities, required actions, suggested replies, and label recommendations.
 
-The goal is simple: help a business user understand the most important matters of the day within five minutes.
+The goal is simple: help a business user understand the most important matters of the day within five minutes. This reduces manual triage, lowers cognitive load, and helps prevent missed approvals, payments, meetings, supplier updates, and customer requests.
 
 ## Supporting System: OpenClaw Workflow Runtime
 
@@ -32,18 +32,18 @@ OpenClaw provides the operating layer behind the agent. It coordinates workflow 
 
 ## Secondary Case Study: AI-MT4 Workflow Discipline
 
-AI-MT4 is not the main project. It is not presented as a trading profit system and does not claim profitability. It is included only to show engineering discipline in a higher-risk workflow domain: runtime separation, replay/live isolation, risk-control thinking, and evidence logging.
+AI-MT4 is not the main project. It is not presented as a trading profit system and does not claim profitability. It is included only to show risk-aware system design in a higher-risk workflow domain: runtime separation, replay/live isolation, review boundaries, and evidence logging.
 
 ## Skills Demonstrated
 
-- AI workflow design
-- Business automation analysis
+- Practical AI workflow engineering
+- Business process automation
 - Agent orchestration
 - Email triage and prioritization logic
 - Local runtime architecture
 - Structured outputs and traceable workflow behavior
-- Privacy-conscious documentation
-- Risk-boundary thinking for high-risk systems
+- Privacy-conscious operational design
+- Risk-aware system design for sensitive workflows
 
 ## Repository Contents
 
@@ -62,8 +62,11 @@ AI-MT4 is not the main project. It is not presented as a trading profit system a
 |   |-- 07_publishing_checklist.md
 |   `-- diagrams
 |       |-- README.md
+|       |-- 01_openclaw_architecture.md
 |       |-- 01_openclaw_architecture.mmd
+|       |-- 02_email_agent_workflow.md
 |       |-- 02_email_agent_workflow.mmd
+|       |-- 03_ai_mt4_boundary.md
 |       `-- 03_ai_mt4_boundary.mmd
 `-- sample_outputs
     |-- email_daily_brief_sample.md
@@ -73,7 +76,7 @@ AI-MT4 is not the main project. It is not presented as a trading profit system a
 
 ## Current Status
 
-This is a documentation portfolio for a development project. It is structured for recruiter review, interview discussion, and future GitHub publishing after manual privacy review.
+This is a documentation portfolio for a development project. It is structured for public review, technical discussion, and future GitHub publishing after manual privacy review.
 
 This repository is a curated portfolio showcase, not a full source-code mirror of the private development environment.
 
@@ -84,3 +87,4 @@ This showcase excludes credentials, API keys, OAuth tokens, app passwords, real 
 ## Disclaimer
 
 The sample outputs use synthetic data only. The AI-MT4 case study is not financial advice, does not include live trading data, and makes no profitability or performance claim.
+

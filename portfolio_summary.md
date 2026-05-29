@@ -1,36 +1,38 @@
 # Portfolio Summary
 
-## Candidate Positioning
+## Project Positioning
 
-AI workflow and business automation practitioner focused on turning AI capabilities into repeatable, reviewable workflows for practical business operations.
+OpenClaw is a local AI workflow system for turning AI-assisted work from one-off chat interactions into repeatable, reviewable business workflows.
 
-## Main Hiring Signal
+## Business Problem Addressed
 
-This portfolio shows the ability to think beyond prompts and build workflow systems: business goals, agent responsibilities, runtime coordination, structured outputs, privacy boundaries, and recruiter-readable documentation.
+Many operational teams lose time to messy information streams: inbox triage, approvals, payment requests, supplier updates, customer messages, meeting changes, and low-value noise. The project focuses on converting those inputs into structured priorities, action lists, and decision-support artifacts.
 
-## Main Project
+## Main System: OpenClaw + Enterprise Email Agent
 
-**OpenClaw AI Workflow System + Enterprise Email Agent**
+The main system combines an AI workflow runtime with an Enterprise Email Agent. OpenClaw provides the workflow operating layer, while the Email Agent handles the business case: identifying important emails, suppressing noise, detecting required actions, suggesting replies and labels, and producing a repeatable daily brief.
 
-The main project demonstrates a local AI workflow operating layer and a business email agent that helps users identify urgent matters, suppress low-value noise, detect required actions, suggest replies, recommend labels, and generate daily briefs.
+## Secondary Case Study: AI-MT4 Workflow Discipline
 
-## Secondary Case Study
+AI-MT4 is included only as a high-risk automation boundary case study. It demonstrates runtime separation, risk-control thinking, replay/live isolation, and evidence logging. It is not a financial or trading performance project.
 
-**AI-MT4 Workflow Discipline**
+## Practical Value
 
-This is included only as a technical case study in runtime separation, risk-control thinking, replay/live isolation, and evidence logging. It is not presented as a profit system and makes no trading-performance claim.
+- Reduces manual email triage
+- Helps users identify important operational matters faster
+- Converts messy inbox activity into structured daily priorities
+- Reduces missed approvals, supplier updates, customer requests, and payment items
+- Supports future expansion into procurement, finance, operations, and executive support
+- Demonstrates privacy-conscious and risk-aware automation design
 
-## Best-Fit Roles
+## Relevant Capability Areas
 
-- AI Workflow Specialist
-- AI Operations Analyst
-- Business Automation Analyst
-- Workflow Automation Specialist
-- AI Transformation Consultant
-- Business Analyst - AI Automation
-- Applied AI Systems Analyst
-
-## Interview Talking Point
-
-OpenClaw shows how I approach applied AI: define the business workflow first, separate runtime responsibilities, produce structured outputs, preserve evidence, and keep sensitive operational data out of public materials.
+- AI workflow engineering
+- Business process automation
+- Operational decision support
+- Agent orchestration
+- Email workflow automation
+- Risk-aware system design
+- Structured outputs
+- Privacy-conscious automation
 

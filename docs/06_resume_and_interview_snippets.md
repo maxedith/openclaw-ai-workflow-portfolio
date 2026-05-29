@@ -4,7 +4,7 @@
 
 - Built a portfolio AI workflow system that coordinates business agents through repeatable workflow steps, structured outputs, shared context, and reviewable artifacts.
 - Designed an Enterprise Email Agent concept that classifies business messages, detects required actions, ranks priorities, suppresses noise, suggests replies, recommends labels, and generates daily briefs.
-- Created recruiter-friendly documentation that translates applied AI engineering into business value, workflow design, privacy boundaries, and interview-ready examples.
+- Documented how applied AI workflow engineering can improve operational clarity, reduce manual triage, and support privacy-conscious business automation.
 - Applied testable workflow thinking around prioritization, task extraction, workflow detection, status memory, and business-day email scenarios.
 - Documented a secondary AI-MT4 case study focused on runtime separation, risk boundaries, replay/live isolation, and evidence logging without making financial-performance claims.
 

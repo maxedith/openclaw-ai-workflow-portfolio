@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This public GitHub showcase must communicate portfolio value without exposing private operational data.
+This public documentation must communicate engineering and business value without exposing private operational data.
 
 ## Excluded From Public GitHub
 
@@ -19,7 +19,6 @@ Do not publish:
 - Trading logs
 - Live config
 - Runtime signal files
-- Runtime signal files
 - Account data
 - Broker data
 - Token files
@@ -31,7 +30,7 @@ Do not publish:
 Allowed materials include:
 
 - Sanitized architecture descriptions
-- HR-friendly case studies
+- Business workflow case studies
 - Synthetic sample outputs
 - Resume and interview snippets
 - High-level diagrams
@@ -55,4 +54,5 @@ Before publishing:
 
 ## Principle
 
-The portfolio should show judgment, structure, and communication skills. It should not expose private data to prove technical ability.
+The documentation should show judgment, structure, and communication skills. It should not expose private data to prove technical ability.
+

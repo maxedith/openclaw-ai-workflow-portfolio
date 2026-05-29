@@ -4,11 +4,13 @@
 
 Busy professionals, managers, and small business owners lose time sorting email manually. Important approvals, payments, meetings, supplier updates, and customer messages can be missed while newsletters and low-value updates create noise.
 
+Manual triage also creates cognitive load. Users must repeatedly decide what matters, what can wait, what needs a reply, and what should be archived.
+
 ## Workflow Diagram
 
 [Enterprise Email Agent Workflow](diagrams/02_email_agent_workflow.md)
 
-The Email Agent is the main business use case in this portfolio. The diagram shows how it turns messy email into structured business priorities.
+The Email Agent is the main business improvement case in this portfolio. The diagram shows how it turns messy email into structured business priorities.
 
 ## Workflow Goal
 
@@ -54,22 +56,25 @@ Example sections include:
 
 ## Business Value
 
-- Saves time
-- Reduces missed priorities
-- Reduces mental load
-- Improves decision quality
+- Saves time by reducing manual inbox triage
+- Reduces missed approvals, payment items, meetings, supplier updates, and customer requests
+- Reduces cognitive load for managers and business owners
+- Improves decision quality by organizing daily priorities into a reviewable brief
+- Produces a repeatable daily workflow instead of one-off message scanning
 - Creates a reusable pattern for procurement, operations, finance, and executive support
 
 ## Why This Matters for AI Workflow Roles
 
-The Email Agent shows practical AI workflow thinking. It does not just summarize text. It turns a messy inbox into structured business decisions: what matters, what needs action, what can wait, and what should happen next.
+The Email Agent shows practical AI workflow engineering. It does not just summarize text. It turns a messy inbox into structured business decisions: what matters, what needs action, what can wait, and what should happen next.
 
-This is the kind of pattern that can be reused across many internal business workflows.
+The daily brief is a decision-support artifact. It makes the workflow output easier to review, discuss, and improve over time.
 
 ## Future Improvements
 
 - Add more synthetic demo scenarios
 - Build a simple dashboard for daily brief review
 - Add configurable business priorities by company role
+- Define measurable outcomes such as time saved, missed-priority reduction, and review accuracy
 - Expand evaluation tests for edge cases
 - Add human approval steps before any external action
+

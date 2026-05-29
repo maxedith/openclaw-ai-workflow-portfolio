@@ -29,14 +29,14 @@ Search for:
 
 Policy documents may mention these terms only as excluded content.
 
-## HR Review
+## Business Value Review
 
-- README can be understood in under one minute
-- Main project is obvious from the first screen
-- Business value is clear
-- Role fit is easy to understand
+- README explains the business problem and solution quickly
+- Email Agent is the main operational improvement case
+- AI-MT4 remains a secondary risk-boundary case study
+- Diagrams are easy to find
+- Claims are accurate and not overstated
 - Technical terms are explained in plain language
-- Resume bullets avoid overclaiming
 
 ## GitHub Upload Review
 
@@ -58,3 +58,4 @@ Do not publish if any file contains:
 - Live config
 - Unreviewed screenshots
 - Private customer or supplier names
+
