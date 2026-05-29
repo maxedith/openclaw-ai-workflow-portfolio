@@ -2,11 +2,13 @@
 
 These diagrams are visual aids for the OpenClaw AI Workflow Portfolio. They are designed for recruiter and hiring manager review.
 
-1. OpenClaw Overall Architecture
-2. Enterprise Email Agent Workflow
-3. AI-MT4 Boundary Diagram
+Recommended GitHub viewing pages:
 
-The Email Agent workflow is the main business case. The AI-MT4 diagram is a secondary boundary-discipline case study only.
+1. [OpenClaw Overall Architecture](01_openclaw_architecture.md)
+2. [Enterprise Email Agent Workflow](02_email_agent_workflow.md)
+3. [AI-MT4 Boundary Diagram](03_ai_mt4_boundary.md)
 
-Mermaid source files are included so the diagrams can be reviewed and edited.
+The `.md` pages are for GitHub viewing. The `.mmd` files are kept as source files for transparent review and future editing.
+
+The Email Agent workflow is the main business case. The AI-MT4 diagram is secondary only and is about boundary discipline.
 

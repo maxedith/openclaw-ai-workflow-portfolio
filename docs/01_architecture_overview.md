@@ -14,7 +14,7 @@ In this model:
 
 ## Architecture Diagram
 
-[OpenClaw Overall Architecture](diagrams/01_openclaw_architecture.mmd)
+[OpenClaw Overall Architecture](diagrams/01_openclaw_architecture.md)
 
 This diagram shows OpenClaw as a workflow operating layer for business agents, with structured outputs leading to review and business decisions.
 

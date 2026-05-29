@@ -8,7 +8,7 @@ This is not financial advice. This does not claim profitability. This is include
 
 ## Boundary Diagram
 
-[AI-MT4 Boundary Diagram](diagrams/03_ai_mt4_boundary.mmd)
+[AI-MT4 Boundary Diagram](diagrams/03_ai_mt4_boundary.md)
 
 This diagram shows AI-MT4 as a secondary case study about separation, risk boundaries, and evidence logging.
 

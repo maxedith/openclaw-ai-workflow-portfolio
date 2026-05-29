@@ -6,7 +6,7 @@ Busy professionals, managers, and small business owners lose time sorting email 
 
 ## Workflow Diagram
 
-[Enterprise Email Agent Workflow](diagrams/02_email_agent_workflow.mmd)
+[Enterprise Email Agent Workflow](diagrams/02_email_agent_workflow.md)
 
 The Email Agent is the main business use case in this portfolio. The diagram shows how it turns messy email into structured business priorities.
 

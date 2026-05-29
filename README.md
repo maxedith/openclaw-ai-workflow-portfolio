@@ -10,11 +10,11 @@ The main use case is the **Enterprise Email Agent**, which helps business users 
 
 The diagrams below summarize the portfolio structure and the main workflow.
 
-GitHub can render Mermaid diagrams directly, so the `.mmd` files are included as source diagrams for transparent review and future editing.
+GitHub can render Mermaid diagrams directly. The `.mmd` files are retained as editable source files, while the `.md` pages are the recommended GitHub viewing pages.
 
-- [OpenClaw Overall Architecture](docs/diagrams/01_openclaw_architecture.mmd)
-- [Enterprise Email Agent Workflow](docs/diagrams/02_email_agent_workflow.mmd)
-- [AI-MT4 Boundary Diagram](docs/diagrams/03_ai_mt4_boundary.mmd)
+- [OpenClaw Overall Architecture](docs/diagrams/01_openclaw_architecture.md)
+- [Enterprise Email Agent Workflow](docs/diagrams/02_email_agent_workflow.md)
+- [AI-MT4 Boundary Diagram](docs/diagrams/03_ai_mt4_boundary.md)
 
 ## Why This Portfolio Exists
 
@@ -84,4 +84,3 @@ This showcase excludes credentials, API keys, OAuth tokens, app passwords, real 
 ## Disclaimer
 
 The sample outputs use synthetic data only. The AI-MT4 case study is not financial advice, does not include live trading data, and makes no profitability or performance claim.
-
